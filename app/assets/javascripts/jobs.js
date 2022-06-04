@@ -1,7 +1,7 @@
 document.addEventListener("turbolinks:load", function() {
 
   var instrumentImage = document.querySelector('.job-avatar');
-
+  
   function handleFileSelect(evt) {
     var files = evt.target.files; // FileList object
 
